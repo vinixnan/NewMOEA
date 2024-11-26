@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.2)  25 NOV 2024 20:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.2)  25 NOV 2024 21:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -161,30 +161,42 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 20.
+(Font)              <7> on input line 19.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 20.
+(Font)              <5> on input line 19.
 
-Overfull \hbox (4.4059pt too wide) in paragraph at lines 20--53
- [][] 
- []
-
-[2]
-Overfull \hbox (4.4059pt too wide) in paragraph at lines 64--97
- [][] 
- []
-
-[3]
-Overfull \hbox (4.4059pt too wide) in paragraph at lines 107--140
+Overfull \hbox (6.73923pt too wide) in paragraph at lines 19--66
  [][] 
  []
 
 
-Overfull \hbox (4.4059pt too wide) in paragraph at lines 147--180
+LaTeX Warning: Float too large for page by 11.14442pt on input line 66.
+
+
+Overfull \hbox (6.73923pt too wide) in paragraph at lines 73--120
  [][] 
  []
 
-[4] [5] (./WFGStudy.aux)
+
+LaTeX Warning: Float too large for page by 13.08887pt on input line 120.
+
+
+Overfull \hbox (6.73923pt too wide) in paragraph at lines 127--174
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 11.97775pt on input line 174.
+
+
+Overfull \hbox (6.73923pt too wide) in paragraph at lines 181--228
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 13.08887pt on input line 228.
+
+[2] [3] [4] [5] (./WFGStudy.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -192,7 +204,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  2006 strings out of 476025
  32329 string characters out of 5790018
- 1905388 words of memory out of 5000000
+ 1990388 words of memory out of 5000000
  22466 multiletter control sequences out of 15000+600000
  515927 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -207,7 +219,7 @@ al/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/
 texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/tex
 live/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texli
 ve/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on WFGStudy.pdf (5 pages, 116295 bytes).
+Output written on WFGStudy.pdf (5 pages, 123008 bytes).
 PDF statistics:
  70 PDF objects out of 1000 (max. 8388607)
  42 compressed objects within 1 object stream

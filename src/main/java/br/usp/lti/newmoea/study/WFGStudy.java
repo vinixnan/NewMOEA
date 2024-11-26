@@ -32,6 +32,13 @@ import org.uma.jmetal.operator.mutation.impl.PolynomialMutation;
 import org.uma.jmetal.operator.selection.SelectionOperator;
 import org.uma.jmetal.operator.selection.impl.BinaryTournamentSelection;
 import org.uma.jmetal.problem.Problem;
+import org.uma.jmetal.problem.multiobjective.dtlz.DTLZ1;
+import org.uma.jmetal.problem.multiobjective.dtlz.DTLZ2;
+import org.uma.jmetal.problem.multiobjective.dtlz.DTLZ3;
+import org.uma.jmetal.problem.multiobjective.dtlz.DTLZ4;
+import org.uma.jmetal.problem.multiobjective.dtlz.DTLZ5;
+import org.uma.jmetal.problem.multiobjective.dtlz.DTLZ6;
+import org.uma.jmetal.problem.multiobjective.dtlz.DTLZ7;
 import org.uma.jmetal.problem.multiobjective.wfg.WFG1;
 import org.uma.jmetal.problem.multiobjective.wfg.WFG2;
 import org.uma.jmetal.problem.multiobjective.wfg.WFG3;
@@ -129,6 +136,17 @@ public class WFGStudy {
         problemList.add(new ExperimentProblem<>(new WFG7(k, L, m), "WFG7_" + m).setReferenceFront("WFG7." + m + "D.csv"));
         problemList.add(new ExperimentProblem<>(new WFG8(k, L, m), "WFG8_" + m).setReferenceFront("WFG8." + m + "D.csv"));
         problemList.add(new ExperimentProblem<>(new WFG9(k, L, m), "WFG9_" + m).setReferenceFront("WFG9." + m + "D.csv"));
+
+        if (m <= 3) {
+            problemList.add(new ExperimentProblem<>(new DTLZ1(L, m), "DTLZ1_" + m).setReferenceFront("DTLZ1." + m + "D.csv"));
+
+            problemList.add(new ExperimentProblem<>(new DTLZ2(L, m), "DTLZ2_" + m).setReferenceFront("DTLZ2." + m + "D.csv"));
+            problemList.add(new ExperimentProblem<>(new DTLZ3(L, m), "DTLZ3_" + m).setReferenceFront("DTLZ3." + m + "D.csv"));
+            problemList.add(new ExperimentProblem<>(new DTLZ4(L, m), "DTLZ4_" + m).setReferenceFront("DTLZ4." + m + "D.csv"));
+            problemList.add(new ExperimentProblem<>(new DTLZ5(L, m), "DTLZ5_" + m).setReferenceFront("DTLZ5." + m + "D.csv"));
+            problemList.add(new ExperimentProblem<>(new DTLZ6(L, m), "DTLZ6_" + m).setReferenceFront("DTLZ6." + m + "D.csv"));
+            problemList.add(new ExperimentProblem<>(new DTLZ7(L, m), "DTLZ7_" + m).setReferenceFront("DTLZ7." + m + "D.csv"));
+        }
 
     }
 
